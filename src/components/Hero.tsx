@@ -44,7 +44,7 @@ const headlineVariants = {
 };
 
 const wordVariants = {
-  hidden: { opacity: 0.28, y: 10, scale: 0.99, filter: "blur(7px)" },
+  hidden: { opacity: 0, y: 10, scale: 0.99, filter: "blur(7px)" },
   visible: {
     opacity: 1,
     y: 0,
@@ -78,7 +78,7 @@ export function Hero() {
       {shouldTrack ? (
         <motion.div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-0 z-[1] hidden mix-blend-screen xl:block"
+          className="pointer-events-none fixed inset-0 z-[1] hidden mix-blend-screen xl:block"
           style={{ background: spotlight }}
         />
       ) : null}

@@ -72,7 +72,7 @@ export function VideoBackground() {
   return (
     <div className="absolute inset-0 overflow-hidden">
       <video
-        className="absolute inset-0 h-full w-full object-cover opacity-[0.42]"
+        className="absolute inset-0 h-full w-full object-cover opacity-[0.54]"
         src={videoSrc}
         autoPlay
         muted
@@ -88,7 +88,7 @@ export function VideoBackground() {
         aria-hidden="true"
         className="absolute -right-24 top-10 hidden h-96 w-[34rem] -rotate-12 rounded-full bg-violet-400/10 blur-3xl md:block"
       />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,rgba(5,7,13,0.68),rgba(5,7,13,0.36)_28%,transparent_48%),radial-gradient(circle_at_25%_20%,rgba(109,40,217,0.10),transparent_28%),radial-gradient(circle_at_75%_10%,rgba(139,92,246,0.08),transparent_30%),linear-gradient(180deg,rgba(5,7,13,0.62)_0%,rgba(5,7,13,0.74)_52%,rgba(5,7,13,0.92)_78%,#05070D_100%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_42%,rgba(5,7,13,0.54),rgba(5,7,13,0.26)_28%,transparent_48%),radial-gradient(circle_at_25%_20%,rgba(109,40,217,0.10),transparent_28%),radial-gradient(circle_at_75%_10%,rgba(139,92,246,0.08),transparent_30%),linear-gradient(180deg,rgba(5,7,13,0.50)_0%,rgba(5,7,13,0.62)_52%,rgba(5,7,13,0.84)_78%,#05070D_100%)]" />
       <div className="absolute inset-x-0 bottom-0 h-56 bg-gradient-to-b from-transparent via-[#05070D]/92 to-[#05070D]" />
     </div>
   );
