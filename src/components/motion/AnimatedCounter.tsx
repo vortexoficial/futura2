@@ -9,7 +9,7 @@ export function AnimatedCounter({
   suffix?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const inView = useInView(ref, { once: true, margin: "0px" });
   const [displayValue, setDisplayValue] = useState(0);
   const reduceMotion = useReducedMotion();
 

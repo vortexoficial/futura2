@@ -78,7 +78,7 @@ export function VideoBackground() {
         muted
         loop
         playsInline
-        preload="metadata"
+        preload="auto"
       />
       <div
         aria-hidden="true"
