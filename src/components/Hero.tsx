@@ -37,20 +37,20 @@ const headlineVariants = {
   hidden: {},
   visible: {
     transition: {
-      delayChildren: 0.18,
-      staggerChildren: 0.12,
+      delayChildren: 0.12,
+      staggerChildren: 0.075,
     },
   },
 };
 
 const wordVariants = {
-  hidden: { opacity: 0, y: 34, scale: 0.96, filter: "blur(18px)" },
+  hidden: { opacity: 0.28, y: 10, scale: 0.99, filter: "blur(7px)" },
   visible: {
     opacity: 1,
     y: 0,
     scale: 1,
     filter: "blur(0px)",
-    transition: { duration: 0.82, ease: motionConfig.ease },
+    transition: { duration: 0.72, ease: motionConfig.ease },
   },
 };
 
