@@ -67,11 +67,13 @@ export function SectionHeader({
 }
 
 export function VideoBackground() {
+  const videoSrc = `${import.meta.env.BASE_URL}videos/background.webm`;
+
   return (
     <div className="absolute inset-0 overflow-hidden">
       <video
-        className="absolute inset-0 h-full w-full object-cover opacity-42"
-        src="/videos/background.webm"
+        className="absolute inset-0 h-full w-full object-cover opacity-[0.42]"
+        src={videoSrc}
         autoPlay
         muted
         loop
