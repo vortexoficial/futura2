@@ -36,25 +36,23 @@ export function Navbar() {
   }, []);
 
   useEffect(() => {
-    const elements = navItems
-      .map((item) => document.querySelector(item.href))
-      .filter((element): element is Element => Boolean(element));
+    const sections = navItems
+      .map((item) => ({ href: item.href, el: document.querySelector(item.href) }))
+      .filter((s): s is { href: string; el: Element } => Boolean(s.el));
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+    const onScroll = () => {
+      const checkpoint = window.scrollY + window.innerHeight * 0.3;
+      let active = sections[0].href;
+      for (const { href, el } of sections) {
+        const top = (el as HTMLElement).getBoundingClientRect().top + window.scrollY;
+        if (top <= checkpoint) active = href;
+      }
+      setActiveHref(active);
+    };
 
-        if (visible?.target.id) {
-          setActiveHref(`#${visible.target.id}`);
-        }
-      },
-      { rootMargin: "-35% 0px -55% 0px", threshold: [0.1, 0.25, 0.5] }
-    );
-
-    elements.forEach((element) => observer.observe(element));
-    return () => observer.disconnect();
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   useEffect(() => {
@@ -119,6 +117,7 @@ export function Navbar() {
                       linkRefs.current[index] = node;
                     }}
                     href={item.href}
+                    onClick={() => setActiveHref(item.href)}
                     className="group/nav-link relative z-10 rounded-full px-3 py-2 text-sm text-slate-300 transition-colors hover:text-white"
                   >
                     {item.label}
