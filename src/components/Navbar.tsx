@@ -92,9 +92,9 @@ export function Navbar() {
             ? "border-white/14 bg-[#05070D]/82 shadow-[0_18px_80px_rgba(0,0,0,0.36)] backdrop-blur-2xl"
             : "border-white/10 bg-white/[0.045] backdrop-blur-xl"
         )}
-        aria-label="Main navigation"
+        aria-label="Navegação principal"
       >
-        <a href="#home" className="flex items-center gap-3" aria-label="FUTURA DESIGN home">
+        <a href="#home" className="flex items-center gap-3" aria-label="Início FUTURA DESIGN">
           <span className="grid size-9 place-items-center rounded-full bg-gradient-to-br from-violet-600 via-purple-400 to-purple-700 text-sm font-black text-white shadow-[0_0_32px_rgba(139,92,246,0.45)]">
             F
           </span>
@@ -132,13 +132,13 @@ export function Navbar() {
 
         <div className="hidden xl:block">
           <MagneticButton href={whatsAppUrl} className="h-10 px-4">
-            Request diagnosis
+            Solicitar diagnóstico
           </MagneticButton>
         </div>
 
         <Sheet>
           <SheetTrigger asChild>
-            <Button variant="secondary" size="icon" className="xl:hidden" aria-label="Open menu">
+            <Button variant="secondary" size="icon" className="xl:hidden" aria-label="Abrir menu">
               <Menu className="h-5 w-5" />
             </Button>
           </SheetTrigger>
@@ -168,7 +168,7 @@ export function Navbar() {
                   href={whatsAppUrl}
                   className="mt-4 rounded-full bg-gradient-to-r from-violet-600 via-purple-500 to-purple-700 px-5 py-3 text-center text-sm font-semibold text-white"
                 >
-                  Request diagnosis
+                  Solicitar diagnóstico
                 </a>
               </SheetClose>
             </div>

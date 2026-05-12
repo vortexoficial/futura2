@@ -30,7 +30,7 @@ export function PracticalSteps() {
                   </motion.span>
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-                      Step {String(index + 1).padStart(2, "0")}
+                      Etapa {String(index + 1).padStart(2, "0")}
                     </p>
                     <p className="mt-1 text-sm leading-7 text-slate-200">{step}</p>
                   </div>

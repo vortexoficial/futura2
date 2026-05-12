@@ -15,7 +15,7 @@ export function CreativeGallery() {
     <section className="relative overflow-hidden px-4 py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl">
         <SectionHeader
-          eyebrow="Creative works"
+          eyebrow="Trabalhos criativos"
           title="Portfólio e projetos criativos."
           description="Quando mostramos trabalho, mostramos o que importou: o objetivo, o que foi feito e como isso ajudou o negócio."
         />

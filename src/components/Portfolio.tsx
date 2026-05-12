@@ -7,12 +7,12 @@ import { Card } from "@/components/ui/card";
 import { Reveal, SectionHeader, TiltCard } from "@/src/components/premium";
 import { portfolioProjects } from "@/src/data/site-content";
 
-const filters = ["All", "Websites", "Stores", "Landing Pages", "Branding", "Campaigns"];
+const filters = ["Todos", "Sites", "Lojas", "Landing Pages", "Branding", "Campanhas"];
 
 export function Portfolio() {
-  const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState("Todos");
   const visibleProjects =
-    activeFilter === "All"
+    activeFilter === "Todos"
       ? portfolioProjects
       : portfolioProjects.filter((project) => project.category === activeFilter).slice(0, 6);
 
@@ -63,7 +63,7 @@ export function Portfolio() {
                       <div className="relative aspect-[1.35/1] overflow-hidden">
                         <img
                           src={project.image}
-                          alt={`${project.title} website mockup`}
+                          alt={`${project.title} mockup do site`}
                           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                           loading="lazy"
                         />

@@ -55,14 +55,14 @@ export function Footer() {
 
         <Reveal>
           <div>
-            <h3 className="text-sm font-bold text-white">Receive insights</h3>
+            <h3 className="text-sm font-bold text-white">Receba insights</h3>
             <div className="mt-4 flex gap-2">
-              <Input type="email" placeholder="Your email" aria-label="Your email" />
-              <Button size="icon" variant="premium" aria-label="Subscribe">
+              <Input type="email" placeholder="Seu e-mail" aria-label="Seu e-mail" />
+              <Button size="icon" variant="premium" aria-label="Assinar">
                 <ArrowUpRight className="h-4 w-4" />
               </Button>
             </div>
-            <p className="mt-3 text-xs text-slate-500">No spam. Direct content.</p>
+            <p className="mt-3 text-xs text-slate-500">Sem spam. Conteúdo direto.</p>
           </div>
         </Reveal>
       </div>

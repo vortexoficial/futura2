@@ -106,8 +106,8 @@ export function FinalCTA() {
                   <MessageCircle className="h-5 w-5" />
                 </span>
                 <div>
-                  <p className="text-sm font-semibold text-white">WhatsApp diagnosis</p>
-                  <p className="text-xs text-slate-500">Priority and next step</p>
+                  <p className="text-sm font-semibold text-white">Diagnóstico WhatsApp</p>
+                  <p className="text-xs text-slate-500">Prioridade e próximo passo</p>
                 </div>
               </div>
               <ul className="grid gap-4">

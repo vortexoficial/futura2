@@ -49,7 +49,7 @@ export function ProblemSolution() {
                         className={cn("transition-opacity group-hover:opacity-50", active && "opacity-50")}
                       >
                         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-violet-200/80">
-                          Before
+                          Antes
                         </p>
                         <h3 className="mt-3 text-xl font-bold text-white">{point.title}</h3>
                         <p className="mt-3 text-sm leading-7 text-slate-400">
@@ -71,11 +71,11 @@ export function ProblemSolution() {
                         className="rounded-2xl border border-violet-400/10 bg-violet-500/5 p-4 transition-colors group-hover:border-violet-400/25"
                       >
                         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-violet-300/80">
-                          After
+                          Depois
                         </p>
                         <p className="mt-3 text-sm leading-7 text-slate-200">{point.solution}</p>
                         <span className="mt-4 inline-flex text-xs font-medium text-violet-300">
-                          {active ? "Solution active" : "Tap or hover to see the path"}
+                          {active ? "Solução ativa" : "Toque ou passe o mouse para ver"}
                         </span>
                       </motion.div>
                     </div>

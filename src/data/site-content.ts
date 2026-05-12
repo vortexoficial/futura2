@@ -59,23 +59,23 @@ export const icons: Record<IconName, LucideIcon> = {
 };
 
 export const whatsAppUrl =
-  "https://wa.me/5500000000000?text=Hello%20FUTURA%20DESIGN%2C%20I%20want%20a%20digital%20presence%20diagnosis.";
+  "https://wa.me/5500000000000?text=Ol%C3%A1%20FUTURA%20DESIGN%2C%20quero%20um%20diagn%C3%B3stico%20de%20presen%C3%A7a%20digital.";
 
 export const navItems = [
-  { label: "Home", href: "#home" },
-  { label: "Team", href: "#team" },
-  { label: "Services", href: "#services" },
-  { label: "How it works", href: "#process" },
-  { label: "Portfolio", href: "#portfolio" },
+  { label: "Início", href: "#home" },
+  { label: "Equipe", href: "#team" },
+  { label: "Serviços", href: "#services" },
+  { label: "Como funciona", href: "#process" },
+  { label: "Portfólio", href: "#portfolio" },
   { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contato", href: "#contact" },
 ];
 
 export const metrics = [
-  { value: 190, suffix: "+", label: "Projects delivered", icon: "Rocket" },
-  { value: 92, suffix: "%", label: "Client satisfaction", icon: "ShieldCheck" },
-  { value: 7, suffix: "+", label: "Years of experience", icon: "Sparkles" },
-  { value: 10, suffix: "+", label: "Business segments", icon: "Globe" },
+  { value: 190, suffix: "+", label: "Projetos entregues", icon: "Rocket" },
+  { value: 92, suffix: "%", label: "Satisfação dos clientes", icon: "ShieldCheck" },
+  { value: 7, suffix: "+", label: "Anos de experiência", icon: "Sparkles" },
+  { value: 10, suffix: "+", label: "Segmentos atendidos", icon: "Globe" },
 ] satisfies Array<{
   value: number;
   suffix: string;
@@ -85,149 +85,149 @@ export const metrics = [
 
 export const methodCards = [
   {
-    title: "Clear message",
+    title: "Mensagem clara",
     description:
-      "Your client quickly understands what you do, who it is for and how to contact you.",
+      "Seu cliente entende rapidamente o que você faz, para quem é e como entrar em contato.",
     icon: "MessageCircle",
   },
   {
-    title: "Lightweight and organized website",
+    title: "Site leve e organizado",
     description:
-      "Fast loading, responsive layout and a clear path to action.",
+      "Carregamento rápido, layout responsivo e um caminho claro para a ação.",
     icon: "MonitorSmartphone",
   },
   {
-    title: "Result tracking",
+    title: "Rastreamento de resultados",
     description:
-      "Track visits, clicks, messages and orders without confusion.",
+      "Acompanhe visitas, cliques, mensagens e pedidos sem confusão.",
     icon: "LineChart",
   },
   {
-    title: "Direct process",
+    title: "Processo direto",
     description:
-      "Clear steps, agreed deadlines and objective communication.",
+      "Etapas claras, prazos combinados e comunicação objetiva.",
     icon: "MousePointerClick",
   },
 ] satisfies Array<{ title: string; description: string; icon: IconName }>;
 
 export const painPoints = [
   {
-    title: "Many visits, few messages",
+    title: "Muitas visitas, poucas mensagens",
     description:
-      "The visitor enters but does not know what to do.",
+      "O visitante entra, mas não sabe o que fazer.",
     solution:
-      "We adjust copy, pages and calls to action so attention turns into conversations.",
+      "Ajustamos a copy, as páginas e as chamadas para ação para que a atenção vire conversa.",
   },
   {
-    title: "Beautiful but confusing website",
+    title: "Site bonito, mas confuso",
     description:
-      "Visual appeal exists, but navigation does not help the decision.",
+      "O apelo visual existe, mas a navegação não ajuda na decisão.",
     solution:
-      "We simplify the path with proof, essential information and clear contact points.",
+      "Simplificamos o caminho com provas, informações essenciais e pontos de contato claros.",
   },
   {
-    title: "Lack of credibility",
+    title: "Falta de credibilidade",
     description:
-      "The brand looks improvised and the client hesitates.",
+      "A marca parece improvisada e o cliente hesita.",
     solution:
-      "We organize identity and communication to transmit security and professionalism.",
+      "Organizamos identidade e comunicação para transmitir segurança e profissionalismo.",
   },
   {
-    title: "No clarity of results",
+    title: "Sem clareza de resultados",
     description:
-      "The business invests, but cannot see what generates contacts and sales.",
+      "O negócio investe, mas não consegue ver o que gera contatos e vendas.",
     solution:
-      "We set up tracking so decisions stop depending on guessing.",
+      "Configuramos o rastreamento para que as decisões parem de depender de suposições.",
   },
 ];
 
 export const capabilities = [
   {
-    title: "Complete development",
+    title: "Desenvolvimento completo",
     description:
-      "Websites and systems built with speed, security and stability.",
+      "Sites e sistemas construídos com velocidade, segurança e estabilidade.",
     icon: "Code2",
   },
   {
-    title: "Brand and experience",
+    title: "Marca e experiência",
     description:
-      "Professional visual identity and information architecture that makes everything easier to understand.",
+      "Identidade visual profissional e arquitetura de informação que facilita a compreensão de tudo.",
     icon: "Palette",
   },
   {
-    title: "Websites and stores",
+    title: "Sites e lojas",
     description:
-      "Fast, organized and responsive experiences designed to convert visits into messages and orders.",
+      "Experiências rápidas, organizadas e responsivas para converter visitas em mensagens e pedidos.",
     icon: "Store",
   },
   {
-    title: "Content and ads",
+    title: "Conteúdo e anúncios",
     description:
-      "Creative assets and campaigns with clear goals and performance tracking.",
+      "Criativos e campanhas com objetivos claros e rastreamento de performance.",
     icon: "Megaphone",
   },
 ] satisfies Array<{ title: string; description: string; icon: IconName }>;
 
 export const services = [
   {
-    title: "Brand and identity",
+    title: "Marca e identidade",
     icon: "Brush",
     description:
-      "Professional visuals and clear messaging to increase trust and make the client decision easier.",
+      "Visual profissional e comunicação clara para aumentar a confiança e facilitar a decisão do cliente.",
     whenItMakesSense:
-      "When the brand looks generic, communication is confusing and the client does not understand the value.",
+      "Quando a marca parece genérica, a comunicação é confusa e o cliente não entende o valor.",
     deliverables: [
-      "Message and differentiators",
-      "Visual identity and simple usage guide",
-      "Templates for social media and ads",
+      "Mensagem e diferenciais",
+      "Identidade visual e guia simples de uso",
+      "Templates para redes sociais e anúncios",
     ],
     benefit:
-      "More trust, less client doubt and coherent presentation across every channel.",
+      "Mais confiança, menos dúvida do cliente e apresentação coerente em todos os canais.",
   },
   {
-    title: "Websites and online stores",
+    title: "Sites e lojas online",
     icon: "MonitorSmartphone",
     recommended: true,
     description:
-      "A simple-to-navigate website that explains clearly and guides people to action.",
+      "Um site fácil de navegar, que explica com clareza e guia as pessoas para a ação.",
     whenItMakesSense:
-      "When the website is slow, confusing or does not generate contacts and orders.",
+      "Quando o site é lento, confuso ou não gera contatos e pedidos.",
     deliverables: [
-      "Landing pages and institutional websites",
-      "Mobile and desktop responsive layout",
-      "Basic SEO and result tracking",
+      "Landing pages e sites institucionais",
+      "Layout responsivo para mobile e desktop",
+      "SEO básico e rastreamento de resultados",
     ],
     benefit:
-      "More orders and messages with a solid base ready for promotion.",
+      "Mais pedidos e mensagens com uma base sólida pronta para promoção.",
   },
   {
-    title: "Ads and creatives",
+    title: "Anúncios e criativos",
     icon: "Megaphone",
     description:
-      "Creative assets for ads and social media with clear goals and performance tracking.",
+      "Criativos para anúncios e redes sociais com objetivos claros e rastreamento de performance.",
     whenItMakesSense:
-      "When ads generate weak contacts or it is unclear what brought results.",
+      "Quando os anúncios geram contatos fracos ou não está claro o que trouxe resultados.",
     deliverables: [
-      "Creative packages for ads and social media",
-      "Offer and message organization",
-      "Adjustments based on messages, orders and sales",
+      "Pacotes criativos para anúncios e redes sociais",
+      "Organização de oferta e mensagem",
+      "Ajustes baseados em mensagens, pedidos e vendas",
     ],
-    benefit: "More predictability and safer decisions without guessing.",
+    benefit: "Mais previsibilidade e decisões mais seguras sem suposições.",
   },
   {
-    title: "Social media management",
+    title: "Gestão de redes sociais",
     icon: "Instagram",
     description:
-      "Organic strategy that turns content into messages and orders.",
+      "Estratégia orgânica que transforma conteúdo em mensagens e pedidos.",
     whenItMakesSense:
-      "When the business posts without consistency, proof or clear call to action.",
+      "Quando o negócio posta sem consistência, sem prova ou sem chamada clara para ação.",
     deliverables: [
-      "Content calendar",
-      "Strategic posts and creatives",
-      "Clear CTA and content direction",
+      "Calendário de conteúdo",
+      "Posts estratégicos e criativos",
+      "CTA claro e direção de conteúdo",
     ],
     benefit:
-      "More consistency, authority and direct communication with the audience.",
+      "Mais consistência, autoridade e comunicação direta com o público.",
   },
 ] satisfies Array<{
   title: string;
@@ -242,33 +242,33 @@ export const services = [
 export const processSteps = [
   {
     number: "01",
-    title: "Diagnosis",
+    title: "Diagnóstico",
     description:
-      "We understand your goal, audience and what a good result means for you.",
+      "Entendemos seu objetivo, público e o que um bom resultado significa para você.",
   },
   {
     number: "02",
-    title: "Strategy",
+    title: "Estratégia",
     description:
-      "We organize the message, proof and customer path to contact or purchase.",
+      "Organizamos a mensagem, as provas e o caminho do cliente até o contato ou a compra.",
   },
   {
     number: "03",
-    title: "Construction",
+    title: "Construção",
     description:
-      "We build the page, website or store with clear copy and result tracking.",
+      "Construímos a página, o site ou a loja com copy clara e rastreamento de resultados.",
   },
   {
     number: "04",
-    title: "Acquisition",
+    title: "Aquisição",
     description:
-      "We create assets and organize promotion to attract people with real interest.",
+      "Criamos criativos e organizamos a promoção para atrair pessoas com interesse real.",
   },
   {
     number: "05",
-    title: "Optimization",
+    title: "Otimização",
     description:
-      "We improve what is necessary to increase orders and reduce waste.",
+      "Melhoramos o que for necessário para aumentar pedidos e reduzir desperdício.",
   },
 ];
 
@@ -287,7 +287,7 @@ export const portfolioProjects = [
   "Maues Energy",
 ].map((title, index) => ({
   title,
-  category: index % 3 === 0 ? "Websites" : index % 3 === 1 ? "Stores" : "Landing Pages",
+  category: index % 3 === 0 ? "Sites" : index % 3 === 1 ? "Lojas" : "Landing Pages",
   image: [
     "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
@@ -298,32 +298,32 @@ export const portfolioProjects = [
 
 export const creativeWorks = [
   {
-    title: "Campaign system",
+    title: "Sistema de campanha",
     image:
       "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Brand direction",
+    title: "Direção de marca",
     image:
       "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Launch creatives",
+    title: "Criativos de lançamento",
     image:
       "https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Studio content",
+    title: "Conteúdo de estúdio",
     image:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Digital presence",
+    title: "Presença digital",
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Interface assets",
+    title: "Ativos de interface",
     image:
       "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80",
   },
@@ -331,81 +331,81 @@ export const creativeWorks = [
 
 export const expectationItems = [
   {
-    title: "Priority clarity",
+    title: "Clareza de prioridades",
     description:
-      "You get a simple plan: what will be done first, what comes later and why.",
+      "Você recebe um plano simples: o que será feito primeiro, o que vem depois e por quê.",
     icon: "Layers",
   },
   {
-    title: "Clear path to contact",
+    title: "Caminho claro para o contato",
     description:
-      "Your website and communication stop being decoration and start guiding people to action.",
+      "Seu site e sua comunicação param de ser decoração e passam a guiar as pessoas para a ação.",
     icon: "MousePointerClick",
   },
   {
-    title: "Tracking without complication",
+    title: "Rastreamento sem complicação",
     description:
-      "You follow the basics that matter: visits, clicks and messages.",
+      "Você acompanha o básico que importa: visitas, cliques e mensagens.",
     icon: "LineChart",
   },
 ] satisfies Array<{ title: string; description: string; icon: IconName }>;
 
 export const practicalSteps = [
-  "You explain the goal and what needs improvement.",
-  "We define what will be delivered and the deadline.",
-  "You approve the text and visual before launch.",
-  "We publish with result tracking.",
-  "We adjust based on what people do on the website.",
-  "You have a clear next step without confusion.",
+  "Você explica o objetivo e o que precisa melhorar.",
+  "Definimos o que será entregue e o prazo.",
+  "Você aprova o texto e o visual antes do lançamento.",
+  "Publicamos com rastreamento de resultados.",
+  "Ajustamos com base no que as pessoas fazem no site.",
+  "Você tem um próximo passo claro, sem confusão.",
 ];
 
 export const faqItems = [
   {
-    question: "Can we start with a smaller budget?",
+    question: "Podemos começar com um orçamento menor?",
     answer:
-      "Yes. The key is prioritization. We define a lean scope and deliver what unlocks results now, with a solid base to evolve.",
+      "Sim. A chave é a priorização. Definimos um escopo enxuto e entregamos o que desbloqueia resultados agora, com uma base sólida para evoluir.",
   },
   {
-    question: "Do you guarantee sales or lead numbers?",
+    question: "Vocês garantem números de vendas ou leads?",
     answer:
-      "We do not promise numbers. Every business has a different market, offer and ticket. We guarantee process and quality: clear messaging, well-structured pages and tracking to optimize safely.",
+      "Não prometemos números. Cada negócio tem um mercado, oferta e ticket diferentes. Garantimos processo e qualidade: mensagem clara, páginas bem estruturadas e rastreamento para otimizar com segurança.",
   },
   {
-    question: "I already have a website or identity. Can you improve it?",
+    question: "Já tenho um site ou identidade. Vocês conseguem melhorar?",
     answer:
-      "Yes, and often this is the smartest path. We adjust positioning, structure, copy and visual direction to make it clearer, more reliable and easier to convert.",
+      "Sim, e muitas vezes esse é o caminho mais inteligente. Ajustamos posicionamento, estrutura, copy e direção visual para deixar mais claro, mais confiável e mais fácil de converter.",
   },
   {
-    question: "How does the diagnosis work?",
+    question: "Como funciona o diagnóstico?",
     answer:
-      "You explain your goal and moment, we analyze the scenario and return a practical plan: what to do first, why and what next step makes sense.",
+      "Você explica seu objetivo e momento, analisamos o cenário e devolvemos um plano prático: o que fazer primeiro, por quê e qual próximo passo faz sentido.",
   },
   {
-    question: "How long does delivery take?",
+    question: "Qual é o prazo de entrega?",
     answer:
-      "It depends on scope and available material. During diagnosis, you receive deadline, steps and what we need from your side.",
+      "Depende do escopo e do material disponível. No diagnóstico, você recebe o prazo, as etapas e o que precisamos da sua parte.",
   },
 ];
 
 export const diagnosisItems = [
-  "Understanding your goal and audience",
-  "Recommendation of what to do first",
-  "Scope proposal with deadline and priority",
-  "Content guidance",
-  "Clear next step without pressure",
+  "Entendimento do seu objetivo e público",
+  "Recomendação do que fazer primeiro",
+  "Proposta de escopo com prazo e prioridade",
+  "Orientação de conteúdo",
+  "Próximo passo claro, sem pressão",
 ];
 
 export const footerColumns = [
   {
-    title: "Sitemap",
-    links: ["Home", "Team", "Services", "Contact"],
+    title: "Mapa do site",
+    links: ["Início", "Equipe", "Serviços", "Contato"],
   },
   {
     title: "Legal",
-    links: ["Terms of Use", "Privacy", "Cookies"],
+    links: ["Termos de Uso", "Privacidade", "Cookies"],
   },
   {
-    title: "Direct Contact",
-    links: ["@futuradesign.br", "WhatsApp Support"],
+    title: "Contato Direto",
+    links: ["@futuradesign.br", "Suporte via WhatsApp"],
   },
 ];

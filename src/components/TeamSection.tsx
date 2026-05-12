@@ -14,11 +14,11 @@ export function TeamSection() {
             <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent,rgba(139,92,246,0.16),transparent)]" />
             <img
               src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=85"
-              alt="Creative team planning digital strategy"
+              alt="Equipe criativa planejando estratégia digital"
               className="relative aspect-[1.12/1] w-full rounded-2xl object-cover opacity-85 sm:rounded-[1.55rem]"
               loading="lazy"
             />
-            {["Design", "Development", "Strategy", "Performance"].map((label, index) => (
+            {["Design", "Desenvolvimento", "Estratégia", "Performance"].map((label, index) => (
               <motion.div
                 key={label}
                 className="absolute rounded-full border border-white/10 bg-[#080D18]/80 px-4 py-2 text-sm font-medium text-white shadow-xl backdrop-blur-xl"

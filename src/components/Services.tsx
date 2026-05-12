@@ -42,7 +42,7 @@ export function Services() {
                             <Icon className="h-5 w-5 text-violet-300" />
                           </motion.span>
                         </span>
-                        {service.recommended ? <Badge variant="premium">Recommended</Badge> : null}
+                        {service.recommended ? <Badge variant="premium">Recomendado</Badge> : null}
                       </div>
                       <h3 className="text-2xl font-bold leading-[1.12] tracking-tight text-white">
                         {service.title}
@@ -53,9 +53,9 @@ export function Services() {
 
                       <Tabs defaultValue="deliverables" className="mt-6">
                         <TabsList>
-                          <TabsTrigger value="deliverables">Deliverables</TabsTrigger>
-                          <TabsTrigger value="fit">When it fits</TabsTrigger>
-                          <TabsTrigger value="benefit">Outcome</TabsTrigger>
+                          <TabsTrigger value="deliverables">Entregas</TabsTrigger>
+                          <TabsTrigger value="fit">Quando se aplica</TabsTrigger>
+                          <TabsTrigger value="benefit">Resultado</TabsTrigger>
                         </TabsList>
                         <TabsContent value="deliverables">
                           <motion.ul
